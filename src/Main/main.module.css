@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+p{
+    margin: 0px;
+}
+.main{
+    margin-left:16.6vw;
+    margin-right: 8.3vw;
+    height:100vh;
+    border-right: 1px solid #e1e4e4;
+    border-left: 1px solid #e1e4e4;
+}
+.historyDates{
+    position: relative;
+    width: 353px;
+    height: 134px;
+    top: 100px;
+    left: 80px;
+    font-family: PT Sans;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67.2px;
+    text-align: left;
+    color: #42567A;
+}
+.dataFrom{
+    font-family: PT Sans;
+    font-size: 200px;
+    font-weight: 700;
+    line-height: 160px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #9DBEFD;
+}
+.dataTo{
+    font-family: PT Sans;
+    font-size: 200px;
+    font-weight: 700;
+    line-height: 160px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #f87f7f;
+    margin-left: 70px;
+}
+.dataDiv{
+    width: 973px;
+    height: 160px;
+    top: 17vh;
+    left: 217px;
+    position: relative;
+    display: flex;
+    z-index: 101;
+}
+.circle{
+    position: relative;
+    left:390px;
+    bottom:180px;
+    width:40vw;
+    z-index: 100;
+}
+.textCircle{
+    font-family: PT Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+.nameData{
+    font-family: PT Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+}
+.arrowDiv{
+    width: 120px;
+    height: 88px;
+    top: -260px;
+    left: 80px;
+    position: relative;
+}
+.arrowLeft{
+    width: 10px;
+    height: 10px;
+    border-top: 1px solid #000000;
+    border-right: 1px solid #000000;
+    transform: rotate(-135deg);
+}
+.arrowRight{
+    width: 10px;
+    height: 10px;
+    border-top: 1px solid #000000;
+    border-right: 1px solid #000000;
+    transform: rotate(45deg);
+}
+.arrowCircle{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 1px solid #42567A80;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arrowCircle:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+.circles{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.pageList{
+    font-family: PT Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.12px;
+    text-align: left;
+    color:#42567A;
+}
+.swiper{
+    display: flex;
+    position: relative;
+    bottom:215px;
+    left:10px;
+    width:1300px;
+    
+}
+.eventDate{
+    font-family: Bebas Neue;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #3877EE;
+}
+.eventText{
+    font-family: PT Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color:#42567A;
+    margin-top: 15px;
+    width: 320px;
+    margin-right: 80px;
+}
+.dot{
+    z-index: 100;
+}
+.dot:hover{
+    width:56px;
+    height: 56px;
+    background-color: white;
+    cursor: pointer;
+}
+.dotsm{
+    z-index: 103;
+    position: relative;
+    left:210px;
+    bottom:180px;
+    width:80vw;
+    top:114px;
+    position: absolute;
+}
+.hidden{
+    display: none;
+}
+.dotsb{
+    z-index: 104;
+    position: relative;
+    left:1090px;
+    bottom:180px;
+    width:400px;
+    top:114px;
+    position: absolute;
+}
+.stick{
+    height: 953px;
+    width: 1px;
+    background-color:#b9b9b980;
+    position: absolute;
+    top:0px;
+    left:1010px;
+    z-index: 300;
+}
+.stick2{
+    height: 1px;
+    width: 1440px;
+    background-color:#b9b9b980;
+    position: absolute;
+    top:383px;
+    left:320px;
+    z-index: 300;
+}
+@media (max-width: 321px) {
+    .historyDates{
+        width: 123px;
+        height: 48px;
+        top: 59px;
+        left: 20px;
+        position: relative;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: left;
+    }
+    .dataDiv{
+        position: relative;
+        width: 273px;
+        height: 73px;
+        top: 56px;
+        left: 20px;     
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 72.46px;
+        letter-spacing: -0.02em;
+        text-align: left;
+    }
+    .dataFrom{
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 72.46px;
+        letter-spacing: -0.02em;
+        text-align: left;
+    }
+    .dataTo{
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 72.46px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        margin-left: 20px;
+    }
+    .stick, .stick2{
+        display: none;
+    }
+    .swiper{
+        width: 220px;
+        height: 500px;
+        top: 27px;
+        left: -30px;
+    }
+    .main{
+        border: white;
+        margin-left:0vw;
+        margin-right: 0vw;
+    }
+    .eventText{
+        width: 100px;
+        height: 114px;
+        overflow: visible;
+        margin-right: 0px;
+    }
+    .arrowDiv{
+        width: 58.33px;
+        height: 49.67px;
+        top:300px;
+        left: 20px;
+    }
+    .arrowCircle{
+        width: 25px;
+        height: 25px;
+    }
+    .smallDots{
+        width: 86px;
+        height: 6px;
+        top: 530px;
+        left: 117px;
+        position: absolute;
+        display: flex;
+        justify-content: space-between
+    }
+    .smalldot{
+        width: 10px;
+        height: 10px;
+        background-color: #42567A;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+  }
