@@ -1,4 +1,4 @@
-# Training with Vue.js
+# Test-project on next.js
 
 ## Project setup
 
